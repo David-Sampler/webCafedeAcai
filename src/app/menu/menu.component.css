@@ -1,0 +1,101 @@
+.menu{
+    width: 100%;
+    background-color: rgb(255, 255, 255);    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.icon2{
+    display: none;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline-start: 0px;
+    margin: 0px;
+    transition: linear all 0.3s;
+}
+li{
+    transition: linear all 0.3s;
+    list-style: none;  
+    color: white;
+    padding: 15px;
+    background-color:#523963;
+}
+
+input{
+    display: none;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;;
+    background-color: #46295A;
+  
+}
+a{
+    text-decoration:none; 
+    color: white;
+}
+
+
+li:hover {
+    background-color: rgb(103, 74, 128);
+  }
+  i{
+      margin-right: 10px;
+  }
+
+#btn-menu:checked ~ .menu2{
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+   align-items: center;
+   display: none;
+}
+
+
+@media only screen and (max-width:600px){ 
+   
+.logo{
+    display: none;
+}
+.menu2{    
+    margin-top: -100%;
+    transition: all ease-in 0.5s;
+}
+
+#btn-menu:checked ~ .menu2{
+    margin: 0;
+    flex-direction: column;
+    
+}
+li{
+    width:100vh;
+    text-align: center;
+}
+.btn{
+    display: inline;
+}
+.icon2{
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+.imagem{
+display:none !important;
+    
+   
+}}

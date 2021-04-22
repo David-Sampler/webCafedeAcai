@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+*{
+    box-sizing: border-box;
+}

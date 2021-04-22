@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Fotos </h1>
+  <div class="row" style="display: flex; justify-content: center; ">
+
+    <div class="col" style="display: flex; flex-direction: row; justify-content: center;" *ngFor='let image of imagem'
+      class='image'>
+
+      <img [src]="image.url" style="width: 300px; height: 500px; margin: 20px;">
+
+    </div>
+
+
+
+  </div>
+
+ 
+
+</div>

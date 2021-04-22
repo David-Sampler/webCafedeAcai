@@ -1,0 +1,33 @@
+<div class="jumbotron">
+    <h2 style="margin-top: 10px; margin-bottom: 20px; text-align: center;"> <i class="fa fa-map-marker"
+            aria-hidden="true"></i> Localizações de todas as lojas</h2>
+
+    <div class="row">
+
+        <div class="col-12 col-md-4"
+            style="display: flex; flex-direction: column; padding: 20px; justify-content: center; align-items: center;"
+            *ngFor="let dado of infor">
+
+            <div class="card" style="width: 20rem;">
+
+                <iframe [src]='dado.link | safe' width="100%" height="250" frameborder="0"></iframe>
+
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="text-align: center; background-color: rgb(69, 50, 90); padding: 10px; color: white;">
+                        {{dado.titulo}}</h5>
+                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true" style="margin-right: 5px;"></i>{{dado.end}}</p>
+                    <p class="card-text"><i class="fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i>{{dado.contato}}</p>
+                    <a [href]="dado.link2" class="btn btn-primary  btn-block" target="_blank">Clica para ver a localização</a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </div>
+</div>
