@@ -4,8 +4,8 @@
       <img [src]="images[0]" class="img-fluid d-block w-100" data-interval="1000">
     </div>
     <div class="carousel-caption">
-      <h3>Adquira hoje o seu </h3>
-      <p>Entre em contato conosco</p>
+     <!-- <h3 class="textoslide">Adquira hoje o seu </h3>
+      <p>Entre em contato conosco</p> -->
     </div>
   </ng-template>
   <ng-template ngbSlide>
@@ -13,8 +13,8 @@
       <img [src]='images[1]' class="img-fluid d-block w-100" data-interval="1000">
     </div>
     <div class="carousel-caption">
-      <h3>São varios Beneficios</h3>
-      <p>Se informe melhor pelo whatsapp.</p>
+    <!--  <h3 class="textoslide">São varios Beneficios</h3>
+      <p>Se informe melhor pelo whatsapp.</p> -->
     </div>
   </ng-template>
   <ng-template ngbSlide>
@@ -22,8 +22,8 @@
       <img [src]="images[2]" alt="Random third slide" class="img-fluid d-block w-100">
     </div>
     <div class="carousel-caption">
-      <h3>Uma delicia de Café</h3>
-      <p>Qualidade comprove hoje.</p>
+      <!-- <h3 class="textoslide" >Uma delicia de Café</h3>
+      <p>Qualidade comprove hoje.</p>-->
     </div>
   </ng-template>
 </ngb-carousel>
@@ -35,16 +35,14 @@
   <div class="row " style="display: flex; justify-content: space-around; ">
 
 
-    <div class="col-md-4 " style="display: flex; justify-content: center;">
+    <div class="col-12 col-md-4 " style="display: flex; justify-content: center; align-items: center; " >
 
-      <img style="width: 400px; height: 400px;" alt="Responsive image" [src]="texto1[0].imagem " data-holder-rendered="true" >
+      <img class="img-fluid" style="width:600px; margin-top: 30px;" alt="Responsive image" [src]="texto1[0].imagem " data-holder-rendered="true" >
 
     </div>
 
 
-
-
-    <div class="col-md-6" style="justify-content: center; padding: 20px;">
+    <div class="col-md-6" style="justify-content: center; padding: 20px;  ">
 
       <h3 style="text-align: center;padding: 10px; color: black;">{{texto1[0].titulo}}</h3>
 
@@ -68,9 +66,9 @@
 
   <div class="row" style="display: flex; justify-content: space-around;" *ngFor=" let c of detalhes">
 
-    <div class="col-md-4 mb-4" style="display: flex; justify-content: center;">
+    <div class="col-md-4 mb-4" style="display: flex; justify-content: center; align-items: center;">
 
-      <img class="rounded-circle z-depth-2" alt="100x100" [src]="c.imagem"  style="width: 200px; height: 200px;; margin-top: 20px;"
+      <img class="rounded-circle z-depth-2" alt="100x100" [src]="c.imagem"  style="width: 200px; height: 200px;margin-top: 20px;"
         data-holder-rendered="true">
 
     </div>

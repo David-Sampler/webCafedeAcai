@@ -45,7 +45,7 @@ export class EnderecosComponent implements OnInit {
     
     {
       link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.429091844965!2d-48.96562718524529!3d-1.9829491985543701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwNTgnNTguNiJTIDQ4wrA1Nyc0OC40Ilc!5e0!3m2!1spt-BR!2sbr!4v1617648163708!5m2!1spt-BR!2sbr" ,
-      titulo:"Igarapé Mirin",
+      titulo:"Igarapé Miri",
       end:"R. Lauro Sodré, 1099-989, Igarapé-Mirí - PA, 68430-000",
       contato:"(91)99282 - 9547",
       link2:"https://goo.gl/maps/PYyHYPrxnnbQdZ239"
@@ -61,7 +61,7 @@ export class EnderecosComponent implements OnInit {
     },
     {
       link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.618213390179!2d-48.43604588524603!3d-1.4053416989750518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMjQnMTkuMiJTIDQ4wrAyNicwMS45Ilc!5e0!3m2!1spt-BR!2sbr!4v1617894624412!5m2!1spt-BR!2sbr" ,
-      titulo:"Entrocamento",
+      titulo:"Entroncamento",
       end:"Rodovia BR 316 km01 - Castanheira, Belém - PA, 66645-001",
       contato:"(91) 98069 - 4375 / 3238 - 9355",
       link2:"https://goo.gl/maps/1RUvEZfN56gNarQE6"

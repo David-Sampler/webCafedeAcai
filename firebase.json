@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/cafedeacaidaamazonia",
+    "public": "dist/AcaiAmazonia",
     "ignore": [
       "firebase.json",
       "**/.*",

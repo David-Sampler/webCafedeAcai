@@ -8,7 +8,7 @@ import { ApiService } from '../api.service';
   styleUrls: ['./slide-home.component.css']
 })
 export class SlideHomeComponent implements OnInit {
-  images = ['../assets/BANNER3.jpg', '../assets/BANNER4.jpg', '../assets/BANNER1.jpg'];
+  images = ['../assets/BANNER3.jpg', '../assets/BANNER2.jpg', '../assets/BANNER1.jpg'];
 
   name = new FormControl('');
   email = new FormControl("")
@@ -28,7 +28,7 @@ export class SlideHomeComponent implements OnInit {
        curiosidade de querer experimentar o sabor e comprovar se melhorava mesmo o seu índice glicêmico, o que teve 
        um surpreendente e fantástico resultado e a partir dai veio o interesse em comercializar.  O plantio e o cultivo 
       é todo artesanal no sitio Bom Jesus na vila de Mocajubinha no Município de terra alta a 105 km da Capital Belém.`,
-      imagem: `assets/CAFE.jpg`
+      imagem: `assets/ACAI3.png`
     }
   ]
 
