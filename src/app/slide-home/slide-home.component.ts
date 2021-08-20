@@ -8,7 +8,8 @@ import { ApiService } from '../api.service';
   styleUrls: ['./slide-home.component.css']
 })
 export class SlideHomeComponent implements OnInit {
-  images = ['../assets/BANNER3.jpg', '../assets/BANNER2.jpg', '../assets/BANNER1.jpg'];
+  images = ['../assets/BANNER-SITE01.jpg','../assets/BANNER-SITE02.jpg', 
+  '../assets/BANNER-SITE03.jpg','../assets/BANNER-SITE04.jpg','../assets/BANNER-SITEMEL.jpg'];
 
   name = new FormControl('');
   email = new FormControl("")
@@ -19,16 +20,18 @@ export class SlideHomeComponent implements OnInit {
 
   fb: any = FormGroup
 
+  imgnovas = ['assets/MENINAAMARELO.jpg','assets/PLANFETO.jpg']
+
   texto1 = [
     {
-      titulo: `Café de Açai`,
+      titulo: `O Café de Açai da Amazônia`,
       principal: `É uma bebida de cor escura e avermelhada. Não é possível afirmar com certeza de quem é a invenção do
        café de Açaí da Amazônia, mas há alguns produtores no interior do estado do Pará entre eles o Empresário 
        Wilson Cunha natural de Igarapé Mirí, Município que fica 143 km de Belém. Ele nos conta que primeiro veio à 
        curiosidade de querer experimentar o sabor e comprovar se melhorava mesmo o seu índice glicêmico, o que teve 
        um surpreendente e fantástico resultado e a partir dai veio o interesse em comercializar.  O plantio e o cultivo 
       é todo artesanal no sitio Bom Jesus na vila de Mocajubinha no Município de terra alta a 105 km da Capital Belém.`,
-      imagem: `assets/ACAI3.png`
+      imagem: `assets/FOTOCAFE.jpg`
     }
   ]
 
@@ -75,18 +78,22 @@ export class SlideHomeComponent implements OnInit {
     `
   },
   {
-    objetivos: `O açaí é fruto típico da região norte, 90% da população o consome, seu aroma e sabor são inconfundíveis. 
-    Tem fama nacional e internacional por possuidor um verdadeiro arsenal de nutrientes (vitaminas A, E, D, K, B1, B2, C, 
-      minerais (cálcio, magnésio, potássio, ferro), aminoácidos, antioxidantes, óleos essenciais, além de ser excelente energético natural). Os seus poderosos nutrientes entre os quais
-       FLAVONOIDES e os TANINOS ajudam a prevenir e controlar várias doenças. Os batedores de açaí da região Norte costumam descartar os caroços no lixo após a batida para retirada do suco, mas é no caroço que está a 
-       verdadeira riqueza do fruto. Segundo especialistas e a nutricionistas o controla da diabetes acontece devido a
-        uma trava que ele dar no paladar, essa trava é ocasionada pelos TANINOS e seus componentes que diminuem a
-         atividade da ALFA-AMILASE que é uma enzima responsável pela digestão dos carboidratos, além do açaí ter bastantes fibras.
-         roço do açaí tem todos os benefícios do açaí in natura, só que no caroço dele está potencializado a substancia que
-          é vasodilatadora e que permite o aumento do fluxo sanguíneo muito bom para os pulmões com o sangue circulando com maior facilidade e diminuindo também a hipertensão arterial. `
+    objetivos: `O açaí é fruto típico da região norte, 90% da população o consome, 
+     aroma e sabor são inconfundíveis. Tem fama nacional e internacional por possuidor
+      um verdadeiro arsenal de nutrientes (vitaminas A, E, D, K, B1, B2, C, minerais
+         (cálcio, magnésio, potássio, ferro), aminoácidos, antioxidantes, óleos essenciais, 
+         além de ser excelente energético natural). Os seus poderosos nutrientes entre os quais
+          FLAVONOIDES e os TANINOS ajudam a prevenir e controlar várias doenças. Os batedores de
+           açaí da região Norte costumam descartar os caroços no lixo após a batida para retirada do suco,
+            mas é no caroço que está a verdadeira riqueza do fruto. Segundo especialistas e a nutricionistas
+             o café de açaí da Amazônia controla a diabetes porque devido a uma trava que ele dar no paladar,
+              essa trava é ocasionada pelos TANINOS e seus componentes que diminuem a atividade da ALFA-AMILASE
+               que é uma enzima responsável pela digestão dos carboidratos, além do açaí ter bastantes fibras. 
+               O caroço do açaí tem todos os benefícios do açaí in natura, só que na amêndoa do caroço está potencializado 
+               a substancia que é vasodilatadora e que permite o aumento do fluxo sanguíneo muito bom para os pulmões que 
+               faz com que o sangue circule com maior facilidade e ainda diminui a hipertensão arterial. `
+
   }
-
-
 
   ]
 

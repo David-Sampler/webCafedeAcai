@@ -20,7 +20,8 @@ import { FotosComponent } from './fotos/fotos.component';
 import { SlidefotosComponent } from './slidefotos/slidefotos.component'
 import { HttpClientModule } from '@angular/common/http'
 
-import { NgxMaskModule, IConfig } from 'ngx-mask'
+import { NgxMaskModule, IConfig } from 'ngx-mask';
+import { MeldeabelhaFotosComponent } from './componentes/meldeabelha-fotos/meldeabelha-fotos.component'
 
 const maskConfig: Partial<IConfig> = {
   validation: false,
@@ -32,7 +33,7 @@ const maskConfig: Partial<IConfig> = {
     MenuComponent,
     SlideHomeComponent,
     VideosComponent,
-    EnderecosComponent,SafePipe, TopoComponent, FotosComponent, SlidefotosComponent
+    EnderecosComponent,SafePipe, TopoComponent, FotosComponent, SlidefotosComponent, MeldeabelhaFotosComponent
   ],
   imports: [
     HttpClientModule,
