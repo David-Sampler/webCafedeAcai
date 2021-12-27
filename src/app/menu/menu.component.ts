@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+//import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-menu',
@@ -12,7 +12,7 @@ export class MenuComponent implements OnInit {
     middle: false,
     right: false
   };
-  faCoffee = faCoffee
+  //faCoffee = faCoffee
   constructor() { }
 
   ngOnInit(): void {
